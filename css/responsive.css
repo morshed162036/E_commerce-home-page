@@ -1,24 +1,29 @@
-@media screen  and (max-width:1000px) {
-    nav{
+@media screen and (max-width:1000px) {
+    nav {
         flex-direction: column;
     }
-    .logo{
+
+    .logo {
         display: flex;
         justify-content: center;
         padding: 10px 0px;
     }
-    nav ul{
+
+    nav ul {
         justify-content: center;
     }
-    .search{
+
+    .search {
         justify-content: center;
         margin: 0;
     }
-    .search input{
+
+    .search input {
         margin: 20px;
         width: 60vw;
     }
-    .search_btn{
+
+    .search_btn {
         right: 0px;
     }
 }
